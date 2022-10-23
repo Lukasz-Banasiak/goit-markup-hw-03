@@ -178,8 +178,33 @@ body {
 }
 .header-wrapper {
 display:flex;
+ align-items: center;
+ justify-content: space-between;
 
 }
 ul {
   list-style: none;
+}
+.navigation {
+  display: flex;
+}
+.assets {
+  display: flex;
+}
+
+.what-we-do-list {
+  display: flex;
+}
+.our-team-list {
+  display:flex;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+}
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
