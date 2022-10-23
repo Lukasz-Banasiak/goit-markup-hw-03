@@ -9,7 +9,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  width: 1600px;
 }
 
 *,
@@ -43,6 +42,7 @@ body {
   line-height: 1rem;
   width: 51px;
   height: 16px;
+  margin: 32px 46px 32px 93px;
 }
 
 .navigation-links:hover {
@@ -87,6 +87,8 @@ body {
 .h1-section {
   background-color: var(--footer-header-bgc-color);
   text-align: center;
+  height: 487px;
+  margin-top: 135px;
 }
 
 .h1-text {
@@ -94,7 +96,11 @@ body {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 20rem;
+  line-height: 60px;
+  font-family: Roboto;
+  padding-top: 162.33px;
+  padding-bottom: 227.27px;
+  padding-inline: 452px;
 }
 
 .atuty-description {
@@ -177,13 +183,13 @@ body {
   letter-spacing: 3%;
   line-height: 1.9rem;
 }
-.header-container {
+.header-wrapper {
 display:flex;
-width: 1200px;
 align-items: center;
 justify-content: space-between;
 border-bottom: 1px solid;
 border-color: rgba(236, 236, 236, 1);
+margin: 0 auto;
 }
 
 ul {
@@ -212,4 +218,10 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  background-color: chartreuse;
+  margin: 0 auto;
 }
