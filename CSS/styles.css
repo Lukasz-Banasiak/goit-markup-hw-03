@@ -9,6 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+  width: 1600px;
 }
 
 *,
@@ -176,17 +177,21 @@ body {
   letter-spacing: 3%;
   line-height: 1.9rem;
 }
-.header-wrapper {
+.header-container {
 display:flex;
- align-items: center;
- justify-content: space-between;
-
+width: 1200px;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid;
+border-color: rgba(236, 236, 236, 1);
 }
+
 ul {
   list-style: none;
 }
 .navigation {
   display: flex;
+  
 }
 .assets {
   display: flex;
