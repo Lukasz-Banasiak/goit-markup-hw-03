@@ -1,0 +1,173 @@
+:root {
+  --grey-color: #757575;
+  --black-txt: #212121;
+  --button-pink-bgc-color: #f5f4fa;
+  --blue-color: #2196f3; 
+  --footer-header-bgc-color: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.logo-webstudio {
+  font-family: "Raleway";
+  font-style: bold;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0, 03em;
+  color: var(--blue-color);
+  text-decoration: none;
+}
+
+.logo_studio {
+  color: black;
+}
+
+.navigation-links {
+  text-decoration: none;
+  color: var(--black-txt);
+  font-style: medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1rem;
+  width: 51px;
+  height: 16px;
+}
+
+.navigation-links:hover {
+  color: var(--blue-color);
+}
+
+.navigation-links:focus {
+  color: var(--blue-color);
+}
+
+.button-order-service {
+  background-color: var(--blue-color);
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 1.6rem;
+  cursor: pointer;
+}
+.button-order-service:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-button-filter {
+  width: 93px;
+  height: 38px;
+  border: none;
+  color: var(--black-txt);
+  background-color: var(--button-pink-bgc-color);
+  border-radius: 4px;
+  line-height: 1.39rem;
+  cursor: pointer;
+}
+.portfolio-button-filter:hover {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+
+
+.h1-section {
+  background-color: var(--footer-header-bgc-color);
+  text-align: center;
+}
+
+.h1-text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 20rem;
+}
+
+.atuty-description {
+  font-style: normal;
+  font-size: 14px;
+  color: var(--grey-color);
+  text-align: left;
+  line-height: 1.75rem;
+  vertical-align: top;
+}
+
+.atuty {
+  color: var(--black-txt);
+  font-size: 14px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.15rem;
+}
+
+.headers {
+  font-size: 36px;
+  text-align: center;
+}
+
+.people {
+font-weight: 500;
+font-size: 16px;
+font-style: ;
+text-align: center;
+line-height: 19px;
+}
+ .job-name {
+color: var(--grey-color);
+font-weight: 400;
+}
+
+.footer {
+  background-color: var(--footer-header-bgc-color);
+}
+.logo_studio_footer {
+  color: rgba(255,255,255,1);
+}
+
+.footer-adress {
+color:#ffffff;
+font-size: 14px;
+line-height: 1.75rem;
+}
+
+.mail_tel_footer {
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+line-height: 1.75rem;
+text-decoration: none;
+}
+
+.mail_tel_top {
+color: var(--grey-color) ;
+font-size: 14px;
+line-height: 1.75rem;
+text-decoration: none;
+font-weight: 500;
+}
+
+.mail_tel_top:hover {
+  color: var(--blue-color);
+}
+.name_of_project {
+color: var(--black-txt);
+font-size: 18px;
+letter-spacing: 6%;
+line-height: 2rem;
+font-weight: 700;
+}
+
+.project-description {
+color: var(--grey-color);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 3%;
+line-height: 1.9rem;
+
+}
