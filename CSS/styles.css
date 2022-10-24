@@ -9,6 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+  max-width: 1600px;
 }
 
 *,
@@ -191,11 +192,11 @@ padding-left: 215px;
 padding-right: 227px;
 }
 
-.container {
+.assets-container {
   padding: 0px 15px;
   background-color: chartreuse;
   margin: 0 auto;
-  width: 1600px;
+  max-width: 1170px;;
 }
 
 ul {
@@ -215,6 +216,7 @@ background-color: aqua;
 display: flex;
 flex-direction: column;
 max-width: 1170px;
+padding-top: 92px;
 margin-left: 215px;
 }
 
