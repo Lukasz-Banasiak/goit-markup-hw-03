@@ -4,6 +4,8 @@
   --button-pink-bgc-color: #f5f4fa;
   --blue-color: #2196f3;
   --footer-header-bgc-color: #2f303a;
+  --white-bgc-color: #ffffff;
+
 }
 
 body {
@@ -142,22 +144,44 @@ body {
 .assets-section {
   padding-top: 94px;
   padding-bottom: 0px;
-  /* padding na zero, niezgodnie z punktem B14, ale musi tak być, bo inaczej sumują się paddingi sąsiadujących elementów
-  i powstaje odległość między sekcjami dwukrotnie większa niż w figmie. Jak to zrobić?? */
+  /* padding na zero. Punkt B14 nakazuje w każdej sekcji robić padding na 94. Jednak wówczas sumują się paddingi sąsiadujących elementów
+  i powstaje odległość między sekcjami dwukrotnie większa niż w figmie. DLatego tutaj ustawiam na 0. Jak to zrobić zgodnie z zadaniem??? */
 }
 
-
-.footer {
+/* FOOTER */
+.footer-container {
   background-color: var(--footer-header-bgc-color);
+  height: 252px;
+  display:flex;
 }
-.logo_studio_footer {
-  color: rgba(255, 255, 255, 1);
+
+.footer-text-container {
+  margin-left: 215px;
+  margin-top: 60px;
 }
+
 
 .footer-adress {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.75rem;
+  margin-bottom: 9px;
+}
+
+.logo-webstudio-footer {
+  font-family: "Raleway";
+  font-style: bold;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0, 03em;
+  color: var(--blue-color);
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.logo_studio_footer {
+  color: rgba(255, 255, 255, 1);
 }
 
 .mail_tel_footer {
@@ -166,6 +190,7 @@ body {
   line-height: 1.75rem;
   text-decoration: none;
 }
+/* END OF FOOTER */
 
 .mail_tel_top {
   color: var(--grey-color);
@@ -258,7 +283,8 @@ margin-bottom: 50px;
 .box-for-picture {
   width: 270px;
   height: 368px;
-  background-color: aqua;
+  background-color: var(--white-bgc-color);
+  border-radius: 4px;
 }
 
 .people {
@@ -266,12 +292,14 @@ margin-bottom: 50px;
   font-size: 16px;
   text-align: center;
   line-height: 19px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .job-name {
   color: var(--grey-color);
   font-weight: 400;
   text-align: center;
+  
 }
 
 .portfolio-list {
