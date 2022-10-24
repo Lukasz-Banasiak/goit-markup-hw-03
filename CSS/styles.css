@@ -88,6 +88,7 @@ body {
   background-color: var(--footer-header-bgc-color);
   text-align: center;
   height: 487px;
+  width:1600px
   margin-top: 135px;
 }
 
@@ -120,10 +121,6 @@ body {
   line-height: 1.15rem;
 }
 
-.headers {
-  font-size: 36px;
-  text-align: center;
-}
 
 .people {
   font-weight: 500;
@@ -195,10 +192,10 @@ padding-right: 227px;
 }
 
 .container {
-  max-width: 1200px;
   padding: 0px 15px;
   background-color: chartreuse;
   margin: 0 auto;
+  width: 1600px;
 }
 
 ul {
@@ -213,11 +210,41 @@ ul {
   display: flex;
 }
 
+.what-we-do-container {
+background-color: aqua;
+display: flex;
+flex-direction: column;
+max-width: 1170px;
+margin-left: 215px;
+}
+
+.what-we-do-header {
+  font-size: 36px;
+  text-align: center;
+}
+
 .what-we-do-list {
   display: flex;
+  justify-content:center;
+  gap:30px;
 }
+
 .our-team-list {
   display:flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-container {
+background-color: rgba(245, 244, 250, 1);
+height: 648px;
+}
+
+.team-header {
+font-size: 36px;
+text-align: center;
+padding-top: 94px;
+padding-bottom: 50px;
 }
 
 .portfolio-list {
