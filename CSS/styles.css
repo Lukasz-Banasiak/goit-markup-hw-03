@@ -99,7 +99,7 @@ body {
   line-height: 60px;
   font-family: Roboto;
   padding-top: 162.33px;
-  padding-bottom: 227.27px;
+  padding-bottom: 24.35px;
   padding-inline: 452px;
 }
 
@@ -190,6 +190,15 @@ justify-content: space-between;
 border-bottom: 1px solid;
 border-color: rgba(236, 236, 236, 1);
 margin: 0 auto;
+padding-left: 215px;
+padding-right: 227px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  background-color: chartreuse;
+  margin: 0 auto;
 }
 
 ul {
@@ -197,8 +206,9 @@ ul {
 }
 .navigation {
   display: flex;
-  
+   
 }
+
 .assets {
   display: flex;
 }
@@ -218,10 +228,4 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-}
-.container {
-  max-width: 1200px;
-  padding: 0px 15px;
-  background-color: chartreuse;
-  margin: 0 auto;
 }
