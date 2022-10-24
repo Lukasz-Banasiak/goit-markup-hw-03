@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  max-width: 1600px;
+  width: 1600px;
 }
 
 *,
@@ -17,6 +17,10 @@ body {
 *::before {
   margin: 0;
   padding: 0;
+}
+
+.main-container {
+  justify-content: center;
 }
 
 .logo-webstudio {
@@ -89,7 +93,7 @@ body {
   background-color: var(--footer-header-bgc-color);
   text-align: center;
   height: 487px;
-  width:1600px
+  width:1600px;
   margin-top: 135px;
 }
 
@@ -105,13 +109,18 @@ body {
   padding-inline: 452px;
 }
 
+
 .atuty-description {
   font-style: normal;
   font-size: 14px;
+  font-weight: 400;
   color: var(--grey-color);
   text-align: left;
-  line-height: 1.75rem;
+  line-height: 1.46rem;
   vertical-align: top;
+  padding-top: 10px;
+  margin-right: 30px;
+  width: 270px;
 }
 
 .atuty {
@@ -119,21 +128,24 @@ body {
   font-size: 14px;
   text-align: left;
   vertical-align: top;
-  line-height: 1.15rem;
 }
 
 
-.people {
-  font-weight: 500;
-  font-size: 16px;
-  font-style: ;
-  text-align: center;
-  line-height: 19px;
+.assets-container {
+  display: flex;
+  margin: auto;
+  /* marginesy zrobione paddingami w klasie poniżej, bo tak nakazuje opis pracy domowej w B6
+  margin-top: 80px;
+  margin-bottom: 90px; */
+  max-width: 1170px;
 }
-.job-name {
-  color: var(--grey-color);
-  font-weight: 400;
+.assets-section {
+  padding-top: 94px;
+  padding-bottom: 0px;
+  /* padding na zero, niezgodnie z punktem B14, ale musi tak być, bo inaczej sumują się paddingi sąsiadujących elementów
+  i powstaje odległość między sekcjami dwukrotnie większa niż w figmie. Jak to zrobić?? */
 }
+
 
 .footer {
   background-color: var(--footer-header-bgc-color);
@@ -192,12 +204,6 @@ padding-left: 215px;
 padding-right: 227px;
 }
 
-.assets-container {
-  padding: 0px 15px;
-  background-color: chartreuse;
-  margin: 0 auto;
-  max-width: 1170px;;
-}
 
 ul {
   list-style: none;
@@ -207,22 +213,19 @@ ul {
    
 }
 
-.assets {
-  display: flex;
-}
-
 .what-we-do-container {
-background-color: aqua;
 display: flex;
 flex-direction: column;
 max-width: 1170px;
-padding-top: 92px;
-margin-left: 215px;
+margin-inline: auto;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .what-we-do-header {
   font-size: 36px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .what-we-do-list {
@@ -231,22 +234,44 @@ margin-left: 215px;
   gap:30px;
 }
 
+.team-container {
+display:flex;
+flex-direction: column;
+background-color: rgba(245, 244, 250, 1);
+height: 648px;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.team-header {
+font-size: 36px;
+text-align: center;
+margin-bottom: 50px;
+}
+
 .our-team-list {
   display:flex;
   justify-content: center;
   gap: 30px;
 }
 
-.team-container {
-background-color: rgba(245, 244, 250, 1);
-height: 648px;
+.box-for-picture {
+  width: 270px;
+  height: 368px;
+  background-color: aqua;
 }
 
-.team-header {
-font-size: 36px;
-text-align: center;
-padding-top: 94px;
-padding-bottom: 50px;
+.people {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.job-name {
+  color: var(--grey-color);
+  font-weight: 400;
+  text-align: center;
 }
 
 .portfolio-list {
