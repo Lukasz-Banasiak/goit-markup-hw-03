@@ -11,7 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  width: 1600px;
+  margin: 0 auto;
 }
 
 *,
@@ -20,10 +20,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-/* .main-container {
-  justify-content: center;
-} */
 
 /*HEADER */
 
@@ -38,6 +34,7 @@ body {
   text-decoration: none;
   margin-top: 24px;
   margin-bottom: 25px;
+  margin-left:215px;
 }
 
 .logo_studio {
@@ -51,12 +48,10 @@ body {
 .header-wrapper {
 display:flex;
 align-items: center;
-justify-content: left;
+justify-content: space-between;
 border-bottom: 1px solid;
 border-color: rgba(236, 236, 236, 1);
 margin: 0 auto;
-padding-left: 215px;
-padding-right: 227px;
 }
 
 .navigation-links {
@@ -92,6 +87,7 @@ padding-right: 227px;
   text-decoration: none;
   font-weight: 500;
   margin-inline: 40px;
+  margin-right: 227px;
 }
 
 .mail_tel_top:hover {
@@ -99,6 +95,12 @@ padding-right: 227px;
 }
 
 /*END OF HEADER*/
+
+.container {
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
 
 .button-order-service {
   background-color: var(--blue-color);
