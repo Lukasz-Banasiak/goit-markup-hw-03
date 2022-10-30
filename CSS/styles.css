@@ -5,7 +5,6 @@
   --blue-color: #2196f3;
   --footer-header-bgc-color: #2f303a;
   --white-bgc-color: #ffffff;
-
 }
 
 body {
@@ -54,9 +53,9 @@ body {
 }
 
 .header-wrapper {
-display:flex;
-align-items: center;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation-links {
@@ -80,8 +79,8 @@ justify-content: space-between;
 }
 
 .mail-tel-container {
-  display:flex;
-  justify-content:right;
+  display: flex;
+  justify-content: right;
 }
 
 .mail_tel_top {
@@ -99,12 +98,10 @@ justify-content: space-between;
 }
 
 header {
-border-bottom: 1px solid;
-border-color: rgba(236, 236, 236, 1);
+  border-bottom: 1px solid;
+  border-color: rgba(236, 236, 236, 1);
 }
 /*END OF HEADER*/
-
-
 
 .button-order-service {
   background-color: var(--blue-color);
@@ -120,21 +117,6 @@ border-color: rgba(236, 236, 236, 1);
 }
 .button-order-service:hover {
   transform: scale(1.05);
-}
-
-.portfolio-button-filter {
-  width: 93px;
-  height: 38px;
-  border: none;
-  color: var(--black-txt);
-  background-color: var(--button-pink-bgc-color);
-  border-radius: 4px;
-  line-height: 1.39rem;
-  cursor: pointer;
-}
-.portfolio-button-filter:hover {
-  background-color: var(--blue-color);
-  color: #ffffff;
 }
 
 .h1-section {
@@ -157,7 +139,6 @@ border-color: rgba(236, 236, 236, 1);
   padding-inline: 452p;
 }
 
-
 .atuty-description {
   font-style: normal;
   font-size: 14px;
@@ -178,7 +159,6 @@ border-color: rgba(236, 236, 236, 1);
   vertical-align: top;
 }
 
-
 .assets-container {
   display: flex;
   margin: 0 auto;
@@ -186,27 +166,21 @@ border-color: rgba(236, 236, 236, 1);
   margin-top: 102px;
 }
 
-
 /* FOOTER */
 .footer-container {
   background-color: var(--footer-header-bgc-color);
-  display:flex;
-justify-content: center;
-
-
-
+  display: flex;
+  justify-content: center;
 }
 
 .footer-text {
-display:flex;
-flex-direction: column;
-height: 252px;
-width:1200px;
-align-items: flex-start;
-justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  height: 252px;
+  width: 1200px;
+  align-items: flex-start;
+  justify-content: center;
 }
-
 
 .footer-adress {
   color: #ffffff;
@@ -239,33 +213,15 @@ justify-content: center;
 }
 /* END OF FOOTER */
 
-
-.name_of_project {
-  color: var(--black-txt);
-  font-size: 18px;
-  letter-spacing: 6%;
-  line-height: 2rem;
-  font-weight: 700;
-}
-
-.project-description {
-  color: var(--grey-color);
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 3%;
-  line-height: 1.9rem;
-}
-
-
 ul {
   list-style: none;
 }
 
 .what-we-do-wrapper {
-display: flex;
-flex-direction: column;
-max-width: 1170px;
-margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  margin-inline: auto;
 }
 
 .what-we-do-header {
@@ -276,26 +232,26 @@ margin-inline: auto;
 
 .what-we-do-list {
   display: flex;
-  justify-content:center;
-  gap:30px;
+  justify-content: center;
+  gap: 30px;
 }
 
 .team-container {
-display:flex;
-flex-direction: column;
-background-color: rgba(245, 244, 250, 1);
-height: 648px;
-margin:auto
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 244, 250, 1);
+  height: 648px;
+  margin: auto;
 }
 
 .team-header {
-font-size: 36px;
-text-align: center;
-margin-bottom: 50px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .our-team-list {
-  display:flex;
+  display: flex;
   justify-content: center;
   gap: 30px;
 }
@@ -319,15 +275,49 @@ margin-bottom: 50px;
   color: var(--grey-color);
   font-weight: 400;
   text-align: center;
-  
 }
+
+/**PORTFOLIO START**/
 
 .portfolio-filters {
   display: flex;
   justify-content: center;
-  margin-top:70px;
+  margin-top: 70px;
   gap: 8px;
 }
+
+.portfolio-button-filter {
+  width: 93px;
+  height: 38px;
+  font-weight: 500;
+  border: none;
+  color: var(--black-txt);
+  background-color: var(--button-pink-bgc-color);
+  border-radius: 4px;
+  line-height: 1.39rem;
+  cursor: pointer;
+}
+.portfolio-button-filter:hover {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+
+.name_of_project {
+  color: var(--black-txt);
+  font-size: 18px;
+  letter-spacing: 6%;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.project-description {
+  color: var(--grey-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3%;
+  line-height: 1.6rem;
+}
+
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -335,8 +325,9 @@ margin-bottom: 50px;
   padding-bottom: 117px;
   padding-top: 50px;
 }
-.grid-wrapper {
-  width: 1170px;
-  margin:auto;
 
+.box-for-project {
+  border: 1px solid rgba(238, 238, 238, 1);
 }
+
+/**PORTFOLIO END**/
