@@ -28,7 +28,8 @@ body {
 }
 
 .section {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*HEADER */
@@ -141,7 +142,7 @@ border-color: rgba(236, 236, 236, 1);
   text-align: center;
   height: 487px;
   /* width:1600px; */
-  margin-top: 135px;
+  margin-top: 127px;
 }
 
 .h1-text {
@@ -153,7 +154,7 @@ border-color: rgba(236, 236, 236, 1);
   font-family: Roboto;
   padding-top: 162.33px;
   padding-bottom: 24.35px;
-  padding-inline: 452px;
+  padding-inline: 452p;
 }
 
 
@@ -180,29 +181,29 @@ border-color: rgba(236, 236, 236, 1);
 
 .assets-container {
   display: flex;
-  margin: auto;
-  /* marginesy zrobione paddingami w klasie poniżej, bo tak nakazuje opis pracy domowej w B6
-  margin-top: 80px;
-  margin-bottom: 90px; */
-  max-width: 1170px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 102px;
 }
-.assets-section {
-  padding-top: 94px;
-  padding-bottom: 0px;
-  /* padding na zero. Punkt B14 nakazuje w każdej sekcji robić padding na 94. Jednak wówczas sumują się paddingi sąsiadujących elementów
-  i powstaje odległość między sekcjami dwukrotnie większa niż w figmie. DLatego tutaj ustawiam na 0. Jak to zrobić zgodnie z zadaniem??? */
-}
+
 
 /* FOOTER */
 .footer-container {
   background-color: var(--footer-header-bgc-color);
+  display:flex;
+justify-content: center;
+
+
 
 }
 
 .footer-text {
-
+display:flex;
+flex-direction: column;
 height: 252px;
-max-width:1200px;
+width:1200px;
+align-items: flex-start;
+justify-content: center;
 
 }
 
@@ -260,13 +261,11 @@ ul {
   list-style: none;
 }
 
-.what-we-do-container {
+.what-we-do-wrapper {
 display: flex;
 flex-direction: column;
 max-width: 1170px;
 margin-inline: auto;
-padding-top: 94px;
-padding-bottom: 94px;
 }
 
 .what-we-do-header {
@@ -286,8 +285,7 @@ display:flex;
 flex-direction: column;
 background-color: rgba(245, 244, 250, 1);
 height: 648px;
-padding-top: 94px;
-padding-bottom: 94px;
+margin:auto
 }
 
 .team-header {
