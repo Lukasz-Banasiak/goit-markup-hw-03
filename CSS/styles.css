@@ -100,6 +100,7 @@ body {
 header {
   border-bottom: 1px solid;
   border-color: rgba(236, 236, 236, 1);
+  margin-bottom: 127px;
 }
 /*END OF HEADER*/
 
@@ -123,8 +124,6 @@ header {
   background-color: var(--footer-header-bgc-color);
   text-align: center;
   height: 487px;
-  /* width:1600px; */
-  margin-top: 127px;
 }
 
 .h1-text {
@@ -308,14 +307,17 @@ ul {
   letter-spacing: 6%;
   line-height: 2rem;
   font-weight: 700;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .project-description {
   color: var(--grey-color);
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 3%;
-  line-height: 1.6rem;
+  letter-spacing:0.03em;
+  line-height: 1.88rem;
+  margin-left:24px;
 }
 
 .projects-grid {
