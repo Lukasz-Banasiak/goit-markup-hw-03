@@ -100,7 +100,6 @@ body {
 header {
   border-bottom: 1px solid;
   border-color: rgba(236, 236, 236, 1);
-  margin-bottom: 127px;
 }
 /*END OF HEADER*/
 
@@ -308,6 +307,7 @@ ul {
   line-height: 2rem;
   font-weight: 700;
   margin-bottom: 4px;
+  margin-top: 20px;
   margin-left: 24px;
 }
 
@@ -318,6 +318,7 @@ ul {
   letter-spacing:0.03em;
   line-height: 1.88rem;
   margin-left:24px;
+  margin-bottom: 20px;
 }
 
 .projects-grid {
